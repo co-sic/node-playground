@@ -6,7 +6,8 @@
     "build-email": "email build",
     "print": "ts-node ./src/script.tsx",
     "print-with-node": "node ./dist/src/script.js",
-    "test": "jest"
+    "test": "jest",
+    "preview-prod": "ts-node ./src/build.ts && vite ./node_modules/@jsx-email/cli/dist/app/dist"
   },
   "devDependencies": {
     "@jsx-email/cli": "3.0.1",
