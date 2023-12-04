@@ -1,8 +1,5 @@
-import { Html } from "@jsx-email/html";
 import React from "react";
-import { Body } from "@jsx-email/body";
-import { Head } from "@jsx-email/head";
-import { Container } from "@jsx-email/container";
+import { Html, Body, Head, Container } from "jsx-email";
 
 export const Template = () => (
   <Html>

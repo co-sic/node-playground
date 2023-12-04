@@ -1,3 +1,3 @@
 # node-playground
 Run `npm install`.
-Run `npm run preview-prod`.
+Run `npm run print`.
